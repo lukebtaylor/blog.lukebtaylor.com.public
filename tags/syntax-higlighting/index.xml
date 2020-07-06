@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>syntax higlighting on Luke's blog site</title><link>http://blog.lukebtaylor.com/tags/syntax-higlighting/</link><description>Recent content in syntax higlighting on Luke's blog site</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 17 Jan 2018 21:35:37 -0600</lastBuildDate><atom:link href="http://blog.lukebtaylor.com/tags/syntax-higlighting/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo - Syntax Highlighting</title><link>http://blog.lukebtaylor.com/posts/hugo-syntax-highlighting/</link><pubDate>Wed, 17 Jan 2018 21:35:37 -0600</pubDate><guid>http://blog.lukebtaylor.com/posts/hugo-syntax-highlighting/</guid><description>In order to get fancy higlighting like this:
+SELECT * FROM TBL_1 GO Console.Writeline(&amp;#34;Hello World&amp;#34;); You either need to use the Highlight Shortcode or enable code fences in the configuration file.
+Add this line
+pygmentsCodeFences = true To config.toml
+To be able to use something like
+```sql-- My code here
+```to wrap code syntax.
+Alternatively, with the Highlight Shortcode you can do something like this:
+{{&amp;lt; highlight sql &amp;quot;linenos=table,hl_lines=8 15-17,linenostart=199&amp;quot; &amp;gt;}} SELECT * FROM TBL_1 GO {{&amp;lt; / highlight &amp;gt;}} Which results in this:</description></item></channel></rss>

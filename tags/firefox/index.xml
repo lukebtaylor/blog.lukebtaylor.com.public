@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>firefox on Luke's blog site</title><link>http://blog.lukebtaylor.com/tags/firefox/</link><description>Recent content in firefox on Luke's blog site</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 15 Feb 2018 22:16:49 -0600</lastBuildDate><atom:link href="http://blog.lukebtaylor.com/tags/firefox/index.xml" rel="self" type="application/rss+xml"/><item><title>Firefox - FF Keeps Running in Background After Closing Browser</title><link>http://blog.lukebtaylor.com/posts/firefox-ff-keeps-running-in-background-after-closing-browser/</link><pubDate>Thu, 15 Feb 2018 22:16:49 -0600</pubDate><guid>http://blog.lukebtaylor.com/posts/firefox-ff-keeps-running-in-background-after-closing-browser/</guid><description>Even after closing Firefox, looking in the task manager reveals that firefox.exe is still a running process.
+Additionally, some users may experience graphics glitchiness where tab titles go missing or a pixelated look to the Firefox graphics.
+Open Firefox.
+Choose Options
+Select the Advanced vertical menu item, then select the the General tab. Uncheck &amp;ldquo;Use hardware acceleration when available&amp;rdquo;
+Close Firefox
+Open Task Manager and close any rogue instances of Firefox.</description></item><item><title>Firefox - Can't log into SSRS Web Portal NTLM</title><link>http://blog.lukebtaylor.com/posts/firefox-cant-log-into-ssrs-web-portal-ntlm/</link><pubDate>Wed, 25 Oct 2017 22:10:28 -0600</pubDate><guid>http://blog.lukebtaylor.com/posts/firefox-cant-log-into-ssrs-web-portal-ntlm/</guid><description>If you keep getting prompted by Firefox for your logon credentials, then the logon goes away and pops right back up, try the following fix.
+Enter about:config in Firefox Find the setting
+network.automatic-ntlm-auth.trusted-uris Edit it to include the URL of your reporting server
+Additional NOTES: To do something like adding the intranet zone you may also have to edit
+network.automatic-ntlm-auth.allow-non-fqdn to true You can add an entire domain by adding:</description></item></channel></rss>
